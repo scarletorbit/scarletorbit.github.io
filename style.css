@@ -2,15 +2,32 @@
     font-family:'mono';
 }
 body {
-    max-width:500;
-    margin:auto;
+    max-width:800px;
+    background-color:transparent;
+    color:white;
+
+}
+.main {
+    overflow:hidden;
+    margin:20px;
+    background: linear-gradient(to top, red, black);
 }
 table {
-    border:4px double black;
+    border:4px double white;
     padding:5px;
+    background-color:black;
+}
+td {
+    background: linear-gradient(to top, black, #404040);
+}
+td:hover {
+    background: linear-gradient(to top, black, red);
 }
 h1 {
     margin-top:10px;
+}
+a {
+    color:white;
 }
 a:target {
     font-weight:bold;
