@@ -11,6 +11,7 @@ body {
     overflow:hidden;
     margin:20px;
     background: linear-gradient(to top, red, black);
+    text-align:left;
 }
 table {
     border:4px double white;
